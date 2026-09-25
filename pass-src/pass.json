@@ -1,0 +1,30 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "__PASS_TYPE_IDENTIFIER__",
+  "teamIdentifier": "__TEAM_IDENTIFIER__",
+  "serialNumber": "DEMO-0001",
+  "organizationName": "Demo pkpass",
+  "description": "Pase de demostración",
+  "logoText": "Demo pkpass",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(28, 60, 120)",
+  "labelColor": "rgb(190, 210, 255)",
+  "generic": {
+    "primaryFields": [
+      { "key": "name", "label": "NOMBRE", "value": "Usuario Demo" }
+    ],
+    "secondaryFields": [
+      { "key": "member", "label": "MIEMBRO", "value": "0001" },
+      { "key": "level", "label": "NIVEL", "value": "Oro" }
+    ],
+    "auxiliaryFields": [
+      { "key": "valid", "label": "VÁLIDO HASTA", "value": "2027-12-31T23:59:00-06:00", "dateStyle": "PKDateStyleMedium" }
+    ],
+    "backFields": [
+      { "key": "info", "label": "Información", "value": "Este es un pase de prueba para visualizar el renderizado en Apple Wallet." }
+    ]
+  },
+  "barcodes": [
+    { "format": "PKBarcodeFormatQR", "message": "DEMO-0001", "messageEncoding": "iso-8859-1", "altText": "DEMO-0001" }
+  ]
+}
